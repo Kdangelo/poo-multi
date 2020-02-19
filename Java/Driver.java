@@ -1,4 +1,5 @@
-class Driver {
-  Account name;
-  String email;
+class Driver extends Account {
+  public Driver(String name, String document) {
+    super(name, document);
+  }
 }

@@ -1,4 +1,5 @@
-class User {
-  Account name;
-  String email;
+class User extends Account {
+  public User(String name, String document) {
+    super(name, document);
+  }
 }
